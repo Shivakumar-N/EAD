@@ -1,0 +1,40 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove any default body margin */
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0; /* Remove any margin under the navbar */
+    padding: 0; /* Optional: remove padding from navbar if needed */
+}
+
+.hero-section {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    min-height: 60vh; /* Adjust height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0; /* Ensure no extra padding at the top */
+}
+
+.about-section {
+    margin-top: 0; /* Remove any top margin */
+    padding: 60px 0;
+}
+
+/* Other sections remain unchanged */
+.projects-section {
+    padding: 60px 0;
+}
+
+.contact-section {
+    padding: 60px 0;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
